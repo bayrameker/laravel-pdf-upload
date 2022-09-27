@@ -1,0 +1,79 @@
+.upload-btn-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.btn {
+    color: gray;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.upload-btn-wrapper input[type="file"] {
+    position: absolute;
+    /* left: 0; */
+    top: 0;
+    opacity: 0;
+    width: 100%;
+}
+
+body,
+html {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+
+.doc-header {
+    background: #3f75e0;
+}
+
+.docList{
+    height: 100vh;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+.docViewList {
+    list-style: none;
+    padding: 0;
+    margin: 10px 8px;
+}
+
+.docViewList li {
+    box-shadow: 0.1rem 0.1rem 1rem rgba(0,0,0,.15);
+    cursor: pointer;
+}
+
+.docViewList li.active {
+    border-left: 4px solid #3f75e0;
+    border-radius: 3px;
+}
+
+.viewer{
+    display: none;
+}
+
+.selFile{
+    cursor: pointer;
+}
+
+#holder{
+  background: #fff;
+  padding: 32px 0 16px 0;
+}
+.canvas-wrapper{
+  margin-bottom: 16px;
+  
+}
+canvas{
+  margin: 0 auto;
+  display: block;
+  border:1px solid #ccc;
+  border-radius: 5px;
+}
